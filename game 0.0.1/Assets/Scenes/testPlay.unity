@@ -190,8 +190,9 @@ GameObject:
   - component: {fileID: 1743854285}
   - component: {fileID: 1743854284}
   - component: {fileID: 1743854283}
+  - component: {fileID: 1743854288}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -279,6 +280,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1743854288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1743854282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086aa6281666046478ec295a9240b6f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 200
 --- !u!1 &1761387599
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,6 +509,7 @@ MonoBehaviour:
   R1: {fileID: 0}
   speed: 0
   force: 20
+  g1: {fileID: 0}
 --- !u!65 &1984000671
 BoxCollider:
   m_ObjectHideFlags: 0
